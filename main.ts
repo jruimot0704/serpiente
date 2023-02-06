@@ -1,15 +1,9 @@
-let a = game.createSprite(2, 2)
-basic.pause(1000)
-a.move(1)
-basic.pause(1000)
-a.set(LedSpriteProperty.X, 0)
-a.move(1)
-basic.pause(1000)
-a.turn(Direction.Right, 90)
-a.move(1)
-basic.pause(1000)
-a.turn(Direction.Right, 90)
-a.move(1)
-basic.forever(function () {
+input.onButtonPressed(Button.A, function () {
 	
+})
+let lista = [game.createSprite(0, 2), game.createSprite(1, 2), game.createSprite(2, 2)]
+basic.forever(function () {
+    for (let index = 0; index <= 2; index++) {
+    	
+    }
 })
